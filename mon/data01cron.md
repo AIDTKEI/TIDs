@@ -1,5 +1,5 @@
 ### cron 작업계정의 인증만료 확인
-- $ for user in $(sudo ls /var/spool/cron/crontabs/ 2>/dev/null); do     echo "=== $user ===";     sudo chage -l $user;     echo ""; done
+- for user in $(sudo ls /var/spool/cron/crontabs/ 2>/dev/null); do     echo "=== $user ===";     sudo chage -l $user;     echo ""; done
 ~~~
 $ for user in $(sudo ls /var/spool/cron/crontabs/ 2>/dev/null); do
 >     echo "=== $user ===";
