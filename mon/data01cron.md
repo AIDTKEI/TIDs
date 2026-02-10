@@ -6,7 +6,7 @@ $ for user in $(sudo ls /var/spool/cron/crontabs/ 2>/dev/null); do
 >     sudo chage -l $user;
 >     echo "";
 > done
-=== b3nn9 ===
+=== a ===
 마지막으로 암호를 바꾼 날                                       : 12월 31, 2025
 암호 만료                               :  3월 31, 2026
 암호가 비활성화 기간                                    : 안함
@@ -15,7 +15,7 @@ $ for user in $(sudo ls /var/spool/cron/crontabs/ 2>/dev/null); do
 암호를 바꿔야 하는 최대 날 수           : 90
 암호 만료 예고를 하는 날 수             : 7
 
-=== dyjin ===
+=== b ===
 마지막으로 암호를 바꾼 날                                       :  2월 10, 2026
 암호 만료                               :  5월 11, 2026
 암호가 비활성화 기간                                    : 안함
@@ -24,7 +24,7 @@ $ for user in $(sudo ls /var/spool/cron/crontabs/ 2>/dev/null); do
 암호를 바꿔야 하는 최대 날 수           : 90
 암호 만료 예고를 하는 날 수             : 7
 
-=== root ===
+=== c ===
 마지막으로 암호를 바꾼 날                                       :  2월 10, 2026
 암호 만료                               :  5월 11, 2026
 암호가 비활성화 기간                                    : 안함
